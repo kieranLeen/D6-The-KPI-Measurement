@@ -5,7 +5,8 @@ For SAM weight 'sam_b.pt': https://kuacae-my.sharepoint.com/:u:/g/personal/10006
 For Flare-smoke Fine-tuned YOLOv8-m weight 'best1.pt': https://kuacae-my.sharepoint.com/:u:/g/personal/100062567_ku_ac_ae/EVXyY7Ew_cVHnm3niFhS6NcBg-_R7wVvFwvsAhHQZart6w?e=uyAZUm
 
 
-The GUI consists of two main levels, each serving distinct purposes:
+The GUI consists of two main levels, each serving distinct purposes:  
+
 	First-level Main Window: 
    - The interface where the user selects input and output directories and determines the type of analysis to be conducted (image-based or video-based). For the current version, image based analysis refers to flare and smoke detection, segmentation, measurements.
 <p align="center">
