@@ -53,7 +53,13 @@ The ‘Second-level Main Window’ opens once the analysis is completed. It cont
 - Console 2: Detection Results - Shows bounding boxes around detected objects (flame, smoke) and presents metrics such as flame angle, smoke/flare ratio, flame size, and smoke size.
 - Console 3: Segmentation (Flame and Smoke) - Highlights flame and smoke areas with colored masks (red for flame, blue for smoke).
 - Console 4: Flame Orientation - Shows a graphical representation of the flame’s angle and direction.
+
  
+<p align="center">
+     <img width="241" alt="图片5" src="https://github.com/user-attachments/assets/76d22fec-1fbf-4a08-a8e0-5fa4e6274d6b">
+</p>
+
+
 
 2. Sub-windows Triggered by Consoles
 The sub-windows are detailed information windows that open when the user double-clicks on specific consoles. Each sub-window provides additional insights into the corresponding data.
