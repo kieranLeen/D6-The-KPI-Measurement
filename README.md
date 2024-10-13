@@ -7,8 +7,12 @@ For Flare-smoke Fine-tuned YOLOv8-m weight 'best1.pt': https://kuacae-my.sharepo
 
 The GUI consists of two main levels, each serving distinct purposes:
 	First-level Main Window: 
-   - The interface where the user selects input and output directories and determines the type of analysis to be conducted (image-based or video-based). For the current version, image based analysis refers to flare and smoke detection, segmentation, measurements. 
- <img width="231" alt="图片1" src="https://github.com/user-attachments/assets/56bcc487-3e60-439e-afdb-bc818ed984f6">
+   - The interface where the user selects input and output directories and determines the type of analysis to be conducted (image-based or video-based). For the current version, image based analysis refers to flare and smoke detection, segmentation, measurements.
+     <p align="center">
+   <img width="231" alt="图片1" src="https://github.com/user-attachments/assets/56bcc487-3e60-439e-afdb-bc818ed984f6">
+</p>
+
+
 
 	Second-level Main Window: 
    - Displays the processed results across four consoles. These consoles offer additional interaction through sub-windows when double-clicked, providing more detailed data such as segmentation masks, color analysis, flare-smoke ratio, flare orientation.
