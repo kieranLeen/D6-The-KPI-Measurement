@@ -16,22 +16,32 @@ The GUI consists of two main levels, each serving distinct purposes:
 
 	Second-level Main Window: 
    - Displays the processed results across four consoles. These consoles offer additional interaction through sub-windows when double-clicked, providing more detailed data such as segmentation masks, color analysis, flare-smoke ratio, flare orientation.
- 
-<img width="233" alt="图片2" src="https://github.com/user-attachments/assets/0cb9dfc6-5acc-43d0-a553-673a5f425861">
+<p align="center">
+   <img width="233" alt="图片2" src="https://github.com/user-attachments/assets/0cb9dfc6-5acc-43d0-a553-673a5f425861">
+</p>
+
 
 1.1 First-level Main Window
 The ‘First-level Main Window’ is the starting point of the GUI, where users set up the analysis by selecting directories and defining the analysis scope. This interface includes:
 - Directory Selection:
   - Users input the directory paths for images, videos, and output folders through text fields.
   - The directory selection buttons (such as "Select Image Directory," "Select Video Directory," "Select Output Directory" which are marked in red box in the attached screenshot), these buttons can open file dialogs for easy path selection (marked in green box).
- <img width="232" alt="图片3" src="https://github.com/user-attachments/assets/f90a2747-3254-483a-b900-e49c1768e2ba">
+
+<p align="center">
+   <img width="232" alt="图片3" src="https://github.com/user-attachments/assets/f90a2747-3254-483a-b900-e49c1768e2ba">
+</p>
+ 
 
 - Analysis Type Selection (marked in red box):
   - The user can start image-based or video-based analysis by clicking the respective buttons. 
   - The "Start Image Auto-labelling" button initiates image-based object detection and segmentation.
   - The "Split Video to Frames" button extracts frames from video files for analysis.
   - The "Start Analysis" button runs gas flare analysis on videos.
- <img width="233" alt="图片4" src="https://github.com/user-attachments/assets/b312e3a5-22a4-4f40-a531-9484204aa81a">
+ 
+<p align="center">
+    <img width="233" alt="图片4" src="https://github.com/user-attachments/assets/b312e3a5-22a4-4f40-a531-9484204aa81a">
+</p>
+
 
 - Log Console (marked in green box):
   - The log console displays real-time progress of the tasks, including how many images or frames have been processed and whether the tasks completed successfully. If the user selects ‘split video to frames’ service, the Log Console will display how many frames are split from the raw video and also the collapsed time.
@@ -52,8 +62,10 @@ By double-clicking on the Segmentation Console (Console 3), a sub-window opens t
 - Flare Mask - The segmentation results showing the areas detected as flames.
 - Smoke Mask - The segmentation results showing the areas detected as smoke.
 This double-click action leads to a sub-window similar to the following visualization:
- <img width="249" alt="图片6" src="https://github.com/user-attachments/assets/85645d78-972c-406e-856a-f988061ae04a">
-
+ 
+<p align="center">
+    <img width="249" alt="图片6" src="https://github.com/user-attachments/assets/85645d78-972c-406e-856a-f988061ae04a">
+</p>
 
 2.2	Sub-window for Detailed Metrics (Triggered from Console 4)
 
@@ -64,7 +76,9 @@ By double-clicking on the Flame Orientation Console (Console 4), another sub-win
 - Flame and Smoke Sizes - The calculated sizes of the flame and smoke regions.
 - Flame Angle - The angle of the flame, with details on how the flame is oriented in the image.+
 An example of this sub-window with detailed metrics is shown below:
- 
-<img width="284" alt="图片7" src="https://github.com/user-attachments/assets/4550d102-60bd-41c7-aca4-91ada277847f">
+ <p align="center">
+    <img width="284" alt="图片7" src="https://github.com/user-attachments/assets/4550d102-60bd-41c7-aca4-91ada277847f">
+</p>
+
 
 
